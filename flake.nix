@@ -1,5 +1,5 @@
 {
-  description = "Lab 2 flake";
+  description = "Lab 3 flake";
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs";
     nixutils.url = "github:numtide/flake-utils";
