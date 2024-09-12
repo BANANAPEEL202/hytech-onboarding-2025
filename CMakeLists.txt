@@ -11,7 +11,7 @@ target_include_directories(hello_lib PUBLIC include)
 add_executable(Lab3 src/main.cpp)
 
 # Link the hello_world library to the executable
-target_link_libraries(Lab2 PRIVATE hello_lib)
+target_link_libraries(Lab3 PRIVATE hello_lib)
 
 include(GNUInstallDirs)
 
